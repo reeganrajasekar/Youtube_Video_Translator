@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="jumbotron vertical-center">
+        <div class="container">
+            <h1 style="text-align:center;color:tomato">Youtube Video to Tamil Translation</h1>
+            <br>
+            <form action="/" method="post">
+                <center>
+                    <input type="url" required name="url" placeholder="https://youtube.com" style="text-align:center;width:50%;height:50px;border:2px solid gray;border-radius: 10px;">
+                    <br><br>
+                    <button style="border: 2px solid gray;border-radius: 10px;height:40px;width:170px;background:tomato;color:white">Translate</button>
+                </center>
+            </form>
+        </div>
+    </div>
+
+    <style>
+        .vertical-center {
+            min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+            min-height: 95vh; /* These two lines are counted as one :-)       */
+            display: flex;
+            align-items: center;
+        }
+    </style>
+    
+</body>
+</html>
